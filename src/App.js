@@ -4,6 +4,6 @@ function App() {
       Hello World,my name is Lily Watanabe. Welcome to my YouTube Channel.
     </div>
   );
-  }
+}
 
-  exoport default App;
+  export default App;
