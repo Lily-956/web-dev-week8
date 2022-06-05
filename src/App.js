@@ -1,15 +1,10 @@
-import Body from "./components/body/body";
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
-
-function App() {
+function About() {
   return (
-    <div>
-        <Header />
-        <Body />
-        <Footer />
-    </div>
-  );
+      <div>
+          Hi, Im nam! 
+          I am a software engineer living out of Sydney, Australia!
+      </div>
+  )
 }
 
-  export default App;
+export default About

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <Typography>
-                &copy; {new Date().getFullYear()} Lily Watanabe. All Rights Reserved.
+                &copy; {new Date().getFullYear()} Nam Dao. All Rights Reserved.
             </Typography>
         </div>
     )

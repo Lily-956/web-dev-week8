@@ -5,6 +5,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
+import "./header.css"
 
 export default function Header() {
   return (
@@ -15,8 +17,12 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
-            Photos
+            Nam's Website
           </Typography>
+          <nav className="navbar">
+            <Link to="/">Home</Link>
+            <Link to="about">About</Link>
+          </nav>
         </Toolbar>
       </AppBar>
     </Box>
