@@ -20,8 +20,9 @@ export default function Header() {
           ✨Lily's Website✨ 
           </Typography>
           <nav className="navbar">
-            <Link to="/">Home</Link>
-            <Link to="about">About</Link>
+            <Link className="Link" to="/">Home</Link>
+            <Link className="Link" to="about">About</Link>
+            <Link className="Link" to="about">Characters</Link>
           </nav>
         </Toolbar>
       </AppBar>
