@@ -17,7 +17,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
-            Nam's Website
+          ✨Lily's Website✨ 
           </Typography>
           <nav className="navbar">
             <Link to="/">Home</Link>
