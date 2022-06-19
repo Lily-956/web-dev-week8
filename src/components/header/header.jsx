@@ -22,7 +22,7 @@ export default function Header() {
           <nav className="navbar">
             <Link className="Link" to="/">Home</Link>
             <Link className="Link" to="about">About</Link>
-            <Link className="Link" to="about">Characters</Link>
+            <Link className="Link" to="characters">Characters</Link>
           </nav>
         </Toolbar>
       </AppBar>

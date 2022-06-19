@@ -1,9 +1,11 @@
 .about {
-    height: 600px;
-    width: 400px;
+    height: 500px;
+    width: 350px;
+    margin-left: 2em;
+    margin-right: 2em;
     vertical-align: middle;
 }
 
 .paragraph {
-    display: inline;
+    vertical-align: middle;
 }
