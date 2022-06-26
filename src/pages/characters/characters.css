@@ -1,0 +1,16 @@
+.body {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

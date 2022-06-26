@@ -1,6 +1,11 @@
+.idk {
+    background-color: #deefff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .about {
-    height: 500px;
-    width: 350px;
+    height: 600px;
+    width: 450px;
     margin-left: 2em;
     margin-right: 2em;
     vertical-align: middle;
@@ -8,4 +13,17 @@
 
 .paragraph {
     vertical-align: middle;
+}
+
+.image_and_text {
+    display: flex;
+}
+
+.intro {
+    text-align: center;
+    color: #315994;
+}
+
+.h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

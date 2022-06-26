@@ -23,6 +23,7 @@ export default function Header() {
             <Link className="Link" to="/">Home</Link>
             <Link className="Link" to="about">About</Link>
             <Link className="Link" to="characters">Characters</Link>
+            <Link className="Link" to="funfacts">FunFacts</Link>
           </nav>
         </Toolbar>
       </AppBar>
